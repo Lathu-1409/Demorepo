@@ -27,6 +27,7 @@ public class MyHealthRegisterController {
 
         return ResponseEntity.ok(response);
     }
+    
 
     @PostMapping("/api/health/login")
     public ResponseEntity<Object> loginUser(@RequestBody UserLogin request) {
