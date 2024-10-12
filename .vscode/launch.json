@@ -1,0 +1,71 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HealthtrackApplication",
+            "request": "launch",
+            "mainClass": "com.health.track.healthtrack.HealthtrackApplication",
+            "projectName": "healthtrack"
+        },
+        {
+            "type": "java",
+            "name": "HealthtrackApplication",
+            "request": "launch",
+            "mainClass": "HealthtrackApplication",
+            "projectName": "mycode_ce0a1e51"
+        },
+        {
+            "type": "java",
+            "name": "HealthApplication",
+            "request": "launch",
+            "mainClass": "health.track.HealthApplication",
+            "projectName": "mycode_ce0a1e51"
+        },
+        {
+            "type": "java",
+            "name": "DemoCode",
+            "request": "launch",
+            "mainClass": "DemoCode",
+            "projectName": "mycode_ce0a1e51"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "mycode_ce0a1e51"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Assignment1.html",
+            "file": "c:\\mycode\\42110697-Full-Stack-web-development\\Assignment1.html"
+        },
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.project.sourcePaths": [
+        "My-Health-Tracker/src/main/java",
+        "healthtrack/src/main/java/com/health/track/healthtrack"
+    ],
+    "maven.view": "hierarchical",
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}
